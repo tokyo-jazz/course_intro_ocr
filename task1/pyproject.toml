@@ -3,7 +3,7 @@ build-backend = "flit_core.buildapi"
 requires = ["flit_core >=3.8.0,<4"]
 
 [project]
-name = "course_ocr_t1"
+name = "course_intro_ocr_t1"
 version = "0.1.1"
 authors = [
     {name = "Boris Zimka", email = "zimka@phystech.edu"},
