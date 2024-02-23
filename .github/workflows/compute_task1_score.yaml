@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.8]
+        python-version: [3.9]
 
     steps:
       - uses: actions/checkout@v2
@@ -25,4 +25,4 @@ jobs:
           python -m pip install -e task1/
       - name: Compute task1 score
         run: |
-          python -m course_ocr_t1.metrics ${{ github.actor }}
+          python -m course_intro_ocr_t1.metrics ${{ github.actor }}
